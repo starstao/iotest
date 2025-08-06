@@ -1,6 +1,9 @@
 import subprocess
 import json
 import unicodedata
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 # 定义计算显示宽度的函数
 def display_width(s):
